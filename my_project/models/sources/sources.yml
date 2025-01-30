@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: telegram_data
+    schema: public  # Replace with the schema where your table resides
+    tables:
+      - name: cleaned_data

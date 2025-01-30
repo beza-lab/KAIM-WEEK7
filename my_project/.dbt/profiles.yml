@@ -1,0 +1,12 @@
+my_project:
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: test123
+      dbname: telegram_data
+      schema: cleaned_data
+      port: 5432
+      threads: 4
+  target: dev

@@ -1,0 +1,24 @@
+name: 'my_project'
+version: '1.0'
+config-version: 2
+
+# Add this line to specify the profile
+profile: 'my_project'
+
+# Name your packages directory
+packages-install-path: "D:/KAIM/WEEK 7/KAIM WEEK7/my_project/dbt_packages"
+
+# Specify the target path
+target-path: "D:/KAIM/WEEK 7/KAIM WEEK7/my_project/target"
+
+# Models path
+model-paths: ["D:/KAIM/WEEK 7/KAIM WEEK7/my_project/models"]
+
+# Seeds path
+seed-paths: ["D:/KAIM/WEEK 7/KAIM WEEK7/my_project/seeds"]
+
+# Snapshots path
+snapshot-paths: ["D:/KAIM/WEEK 7/KAIM WEEK7/my_project/snapshots"]
+
+# Test paths
+test-paths: ["D:/KAIM/WEEK 7/KAIM WEEK7/my_project/tests"]

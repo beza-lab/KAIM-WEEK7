@@ -1,0 +1,1 @@
+{"_invocation_id": "5a598315-9a34-4f2c-87e8-74590a3cdf9f", "linked": {"0": {"name": "source.my_project.telegram_data.cleaned_data", "type": "source", "succ": [1]}, "1": {"name": "model.my_project.my_model", "type": "model"}}}
