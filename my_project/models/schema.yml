@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: my_model
+    description: "A description of the model"
+    columns:
+      - name: Channel
+        description: "The channel name"
+        tests:
+          - not_null
+          - unique
+      - name: Date
+        description: "The date of the message"
+        tests:
+          - not_null
+      - name: Message
+        description: "The message content"
