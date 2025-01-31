@@ -5,3 +5,9 @@ sources:
     schema: public  # Replace with the schema where your table resides
     tables:
       - name: cleaned_data
+        tests:
+          - not_null:
+              column_name: Channel
+          - unique:
+              column_name: Channel
+
