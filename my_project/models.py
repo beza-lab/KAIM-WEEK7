@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, Float
-from database import Base  # Use absolute import
+from database import Base
 
 class DetectionData(Base):
     __tablename__ = "detection_data"
@@ -10,5 +10,5 @@ class DetectionData(Base):
     x_max = Column(Float, index=True)
     y_max = Column(Float, index=True)
     confidence = Column(Float, index=True)
-    class_id = Column(Integer, index=True)
+    class_ = Column(Integer, index=True, name="class")  # Ensuring class_ is mapped correctly to 'class'
     name = Column(String, index=True)
